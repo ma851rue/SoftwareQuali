@@ -4,7 +4,7 @@ import org.junit.After;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MyTests {
+public class MyTest {
 
     Calculator test;
 
