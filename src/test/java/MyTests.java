@@ -27,7 +27,7 @@ public class MyTests {
     public void subtractionTest() {
 
         assertEquals(0, test.sub(5,5), "5-5 must be 0");
-        assertEquals(5, test.sub(10,-5), "10-(-5) must be 15");
+        assertEquals(15, test.sub(10,-5), "10-(-5) must be 15");
 
     }
 
@@ -35,7 +35,7 @@ public class MyTests {
     public void multiplicationTest() {
 
         assertEquals(25, test.mult(5,5), "5*5 must be 25");
-        assertEquals(5, test.mult(5,-5), "5*(-5) must be -25");
+        assertEquals(-25, test.mult(5,-5), "5*(-5) must be -25");
 
     }
 
@@ -43,7 +43,7 @@ public class MyTests {
     public void divisionTest() {
 
         assertEquals(5, test.div(25,5), "25/5 must be 5");
-        assertEquals(5, test.div(25,-5), "25/(-5) must be -5");
+        assertEquals(-5, test.div(25,-5), "25/(-5) must be -5");
 
     }
 
@@ -53,5 +53,4 @@ public class MyTests {
         double fail = test.div(1,0);
 
     }
-    //testGit
 }
