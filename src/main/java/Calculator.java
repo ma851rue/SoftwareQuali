@@ -13,7 +13,7 @@ public class Calculator implements Icalc {
         return num*mult;
     }
 
-    public double div(double num, double div) {
+    public int div(int num, int div) {
         return num/div;
     }
 }

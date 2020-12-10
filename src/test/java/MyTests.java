@@ -50,7 +50,14 @@ public class MyTests {
     @Test(expected = Exception.class)
     public void divideZeroTest() {
 
-        double fail = test.div(1,0);
+        int fail = test.div(1,0);
+
+    }
+
+    @After
+    public void tearDown() {
+
+        test = null;
 
     }
 }

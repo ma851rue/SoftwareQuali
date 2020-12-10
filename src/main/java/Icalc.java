@@ -34,6 +34,6 @@ public interface Icalc {
      * @param div the factor
      * @return the number divided by the factor
      */
-    public double div(double num, double div);
+    public int div(int num, int div);
 
 }
